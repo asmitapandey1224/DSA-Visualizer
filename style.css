@@ -1,0 +1,119 @@
+html, * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#main {
+    min-height: 100vh;
+    background: rgb(106, 115, 126);
+    overflow: hidden;
+}
+
+.main__heading {
+    background: rgb(27, 67, 98);
+    box-shadow: -5px -5px 20px 	rgba(0, 0, 0, .3);
+    border-radius: 0 0 20px 0px;
+    font-family: ubuntu;
+    font-weight: bolder;
+    font-size: 30px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 20px 0px ;
+  }	
+
+.heading__text {
+    font-family: serif;
+    color: rgb(109, 106, 106);
+    font-weight: bolder;
+    font-size: 34px;
+}
+
+.section {
+    overflow-y: scroll;
+    display: flex;
+    margin: auto;
+    text-align: center;
+}
+
+
+.info__box:hover {
+    transform: translateY(-10px);
+    transition:  100ms linear;
+}
+
+.popup__heading {
+    font-family: ubuntu;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.popup__sub__heading {
+    text-align: left;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.popup__sub__heading > b {
+    color: gray;
+    font-weight: bolder;
+    font-size: 23px;
+}
+
+.popup__sub__heading__details {
+
+}
+
+.card-body {
+    display: flex;
+    justify-content: flex-start;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, .2);
+    background: rgb(27, 67, 98);
+    flex-wrap: wrap;
+}
+
+.card {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    transform: scale(.9);
+    box-shadow: 5px -5px 5px rgba(0, 0, 0, .3);
+    transition: 100ms linear;
+}
+
+.card:hover {
+    transform: scale(.9) translateY(-5px);
+    transition: 100ms linear;
+}
+
+.card-img-top-parent {
+    overflow: hidden;
+    transition: 200ms linear;
+    height: 300px;
+    position: relative;
+}
+
+
+.card-img-top:hover {
+    transition: 200ms linear;
+    transform: scale(1.1);
+}
+
+.card__heading {
+    padding: 10px;
+    background: rgb(27, 67, 98);
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-family: ubuntu;
+    color: gray;
+    font-size: 1.2rem;
+}
+
+.badge-primary{
+    color: #007bff;
+    background-color: #fff;
+}

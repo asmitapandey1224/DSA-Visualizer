@@ -1,0 +1,23 @@
+html, * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.grid {
+    position: relative;
+    background: rgb(27, 67, 98);
+    margin: 10px auto;
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+    outline: 2px solid black;
+}
+
+p:nth-child(1) {
+    padding: 10px;
+    text-align: center;
+    font-family: ubuntu;
+    font-weight: bolder;
+    font-size: 20px;
+}

@@ -1,0 +1,30 @@
+html, * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+}
+
+.grid {
+    width: 1000px;
+    position: relative;
+    height: 400px;
+    background: black;
+    margin: 40px auto;
+    display: flex;
+    flex-wrap: wrap;
+    outline: 2px solid black;
+    padding-left: 10px;
+}
+
+p, p:nth-child(1) {
+    padding: 20px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 30px;
+    color: gray;
+    text-transform: uppercase;
+}
